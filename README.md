@@ -1,3 +1,4 @@
+== vulnz
 esta herramienta es  hecha para pentesting, no nos hacemos 
 responsables del uso que le des.
 
@@ -9,4 +10,4 @@ working.
 
 we are working for make better tools
 
-#WeAreMD5
+#WeAreCyberCats
