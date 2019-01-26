@@ -1,4 +1,4 @@
-== vulnz
+# vulnz
 esta herramienta es  hecha para pentesting, no nos hacemos 
 responsables del uso que le des.
 
