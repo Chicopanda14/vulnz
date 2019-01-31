@@ -30,6 +30,8 @@ def help():
  port scanning[1]: port scan, get  ports
  closed and  open
  GeoIP[2]: get ip info
+ TraceRoute[3] traceroute
+ Dns Lookup[4] Get dns lookup 
  exit[9]:  exit framework
  """                                                  
  menu()
@@ -43,8 +45,6 @@ def menu():
  [3]TraceRoute
  [4]Dns Lookup
  [5]help
- [6]commands
- [7]banner
  [9]exit
  '''
 def main():
@@ -63,10 +63,6 @@ def main():
     dns_lookup()
    elif select == "5":
     help()
-   elif select == "6":
-    menu()
-   elif select == "7":
-    banner()
    elif select == "9":
     print "[!] Exting."
     time.sleep(2)
@@ -74,7 +70,7 @@ def main():
     sys.exit()
    else:
     print "[!] wrong command!"
-    time. sleep(5)
+    time. sleep(2)
     program_restart()
 
 def control():

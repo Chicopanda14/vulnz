@@ -45,3 +45,4 @@ def  dns_lookup():
  ip = raw_input("Ip >> ")
  result = get("http://api.hackertarget.com/dnslookup/?q=" +ip).text
  sys.stdout.write(result)
+
