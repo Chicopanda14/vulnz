@@ -1,5 +1,4 @@
-# Vulnz
-
+# vulnz
 
 ## Installation
 Dowload python2
@@ -23,4 +22,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[Apache2.0](https://www.apache.org/licenses/LICENSE-2.0)8
+[Apache2.0](https://www.apache.org/licenses/LICENSE-2.0)
