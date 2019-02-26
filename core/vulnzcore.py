@@ -42,7 +42,10 @@ def traceroute():
   result  = get("https://api.hackertarget.com/mtr/?q=" +ip).text
   sys.stdout.write(result)
 def  dns_lookup():
- ip = raw_input("Ip >> ")
+ ip = raw_input("Ip or domain >> ")
  result = get("http://api.hackertarget.com/dnslookup/?q=" +ip).text
  sys.stdout.write(result)
-
+def sub_lookup():
+ ip = raw_input("Ip or domain>> ")
+ result = get("http://api.hackertarget.com/subnetcalc/?q=" +ip).text
+ sys.stdout.write(result + "\n")
